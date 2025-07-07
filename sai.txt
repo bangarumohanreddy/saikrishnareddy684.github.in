@@ -32,7 +32,7 @@ When complex logic is in SQL views, debugging or auditing calculations becomes h
 3) View Performance impact:
 If the grouping and derivations are complex and not well-indexed or filtered, the sql view itself could become slow, and this will directly slow down ssas cube processing.
 
-
+scenario non
 Scenario 2: Grouping happens in the SSAS cube (Raw data in view)
 Advantages:
 1) More Flexibility in cube:
